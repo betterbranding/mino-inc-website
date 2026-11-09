@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>(mino) — Peptide Therapy for Cellular Renewal</title>
+<meta name="description" content="(mino) is a physician-led platform bringing structure to personalized peptide protocols through medical evaluation and ongoing professional supervision." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/instrument-serif@5/400.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/instrument-serif@5/400-italic.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/inter-tight@5/index.css" />
+<link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-mark"><span class="p">(</span><span class="word">mino</span><span class="p">)</span></div>
+  <div class="loader-tag">Peptide therapy for cellular renewal</div>
+  <div class="loader-count"><span id="count">000</span></div>
+  <div class="loader-bar" id="loaderBar"></div>
+</div>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"><span>View</span></div>
+<div class="progress" id="progress"></div>
+
+<!-- Nav -->
+<header class="nav" id="nav">
+  <a href="#top" class="logo" data-scroll>(mino)</a>
+  <nav class="nav-links">
+    <a href="#therapies" data-scroll>Therapies</a>
+    <a href="#approach" data-scroll>Approach</a>
+    <a href="#quality" data-scroll>Quality</a>
+    <a href="#membership" data-scroll>Membership</a>
+    <a href="#practices" data-scroll>Practices</a>
+  </nav>
+  <a href="mailto:hello@mino.inc?subject=Consultation" class="nav-cta magnetic"><i></i>Consultation</a>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="top">
+  <div class="hero-media" id="heroMedia"><img src="./assets/hero.jpg" alt="A woman at the edge of a quiet pool at golden hour, eyes closed, face toward the sun" /></div>
+  <div class="hero-shade"></div>
+  <div class="hero-dim" id="heroDim"></div>
+  <div class="hero-inner" id="heroInner">
+    <span class="eyebrow hero-fade">Physician-led &middot; Compounded in the US</span>
+    <h1 class="h-xl hero-title">
+      <span class="line"><span class="w"><span class="wi">Peptide</span></span> <span class="w"><span class="wi">therapy</span></span></span>
+      <span class="line"><span class="w"><span class="wi"><em>for</em></span></span> <span class="w"><span class="wi"><em>cellular</em></span></span> <span class="w"><span class="wi">renewal.</span></span></span>
+    </h1>
+    <div class="hero-foot hero-fade">
+      <p class="hero-sub">Personalized protocols, prescribed only after a Mino MD physician reviews your history and labs. Compounded in our own facility. Supervised from the first dose.</p>
+      <div class="cta-row">
+        <a href="mailto:hello@mino.inc?subject=Consultation" class="btn btn-light magnetic"><span class="dot"></span>Begin with a consultation</a>
+        <a href="#therapies-index" class="btn btn-ghost magnetic" data-scroll>Explore therapies</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-meta hero-fade">
+    <span class="scroll-cue"><b></b>Scroll</span>
+    <span>New York Metropolitan Area</span>
+  </div>
+</section>
+
+<main>
+  <!-- Statement -->
+  <section class="sheet statement" id="statement">
+    <span class="eyebrow">Our approach</span>
+    <p class="statement-text" id="statementText"><span class="mino">(mino)</span> brings structure to personalized peptide protocols. Medical evaluation comes first. Pharmaceutical-grade compounding follows. Physician supervision continues, always.</p>
+    <div class="pillars">
+      <div class="pillar reveal-up"><span class="num">01</span><h3>Evaluation first</h3><p>A Mino MD physician reviews your history and labs before anything is prescribed.</p></div>
+      <div class="pillar reveal-up"><span class="num">02</span><h3>Compounded in-house</h3><p>Patient-specific preparations, compounded in (mino)'s own US facility under Section 503A.</p></div>
+      <div class="pillar reveal-up"><span class="num">03</span><h3>Supervised throughout</h3><p>Ongoing professional oversight, with protocols reviewed as your labs change.</p></div>
+    </div>
+  </section>
+
+  <!-- Therapy index -->
+  <section class="index" id="therapies-index">
+    <div class="index-head">
+      <h2 class="h-lg" data-split>Five areas <em>of focus.</em></h2>
+      <p class="lede">Each protocol begins with a physician consultation. If a therapy is indicated, it is prescribed for you and you alone.</p>
+    </div>
+    <ul class="index-list" id="indexList">
+      <li class="index-row" data-target="#regenerative" data-img="./assets/regen-2.jpg"><span class="ir-num">01</span><span class="ir-name">Regenerative Health</span><span class="ir-tags">Longevity &middot; Recovery &middot; Skin</span><span class="ir-arrow"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M2 11h18M13 4l7 7-7 7" stroke="currentColor" stroke-width="1.3"/></svg></span></li>
+      <li class="index-row" data-target="#metabolic" data-img="./assets/metabolic-2.jpg"><span class="ir-num">02</span><span class="ir-name">Metabolic Weight Loss</span><span class="ir-tags">Weight management</span><span class="ir-arrow"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M2 11h18M13 4l7 7-7 7" stroke="currentColor" stroke-width="1.3"/></svg></span></li>
+      <li class="index-row" data-target="#sexual" data-img="./assets/sexual-2.jpg"><span class="ir-num">03</span><span class="ir-name">Sexual Performance</span><span class="ir-tags">Sexual health &middot; HRT</span><span class="ir-arrow"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M2 11h18M13 4l7 7-7 7" stroke="currentColor" stroke-width="1.3"/></svg></span></li>
+      <li class="index-row" data-target="#fitness" data-img="./assets/fitness-2.jpg"><span class="ir-num">04</span><span class="ir-name">Fitness &amp; Recovery</span><span class="ir-tags">Recovery &middot; GH support</span><span class="ir-arrow"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M2 11h18M13 4l7 7-7 7" stroke="currentColor" stroke-width="1.3"/></svg></span></li>
+      <li class="index-row" data-target="#cognitive" data-img="./assets/cognitive-2.jpg"><span class="ir-num">05</span><span class="ir-name">Cognitive Function</span><span class="ir-tags">Cognitive &amp; neurological</span><span class="ir-arrow"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M2 11h18M13 4l7 7-7 7" stroke="currentColor" stroke-width="1.3"/></svg></span></li>
+    </ul>
+    <div class="float-img" id="floatImg"></div>
+  </section>
+
+  <!-- Chapters -->
+  <section class="chapters" id="therapies">
+
+    <article class="chapter" id="regenerative" data-bg="#E7E0D3" data-fg="#1B1C1A">
+      <div class="ch-bignum">01</div>
+      <div class="ch-head"><span class="ch-num">01 / 05</span><span class="ch-kicker">Regenerative Health</span></div>
+      <h2 class="h-lg ch-title" data-split>Renewal, at the <em>cellular</em> level.</h2>
+      <div class="ch-grid">
+        <figure class="frame ch-wide reveal" data-cursor="view"><div class="inner"><img src="./assets/regen-1.jpg" alt="A silver-haired man on a lake dock at sunrise, wrapped in a wool blanket" /></div><figcaption>Regenerative &mdash; 01</figcaption></figure>
+        <figure class="frame ch-tall reveal" data-speed="-14" data-cursor="view"><div class="inner"><img src="./assets/regen-2.jpg" alt="A woman in morning light, calm half-smile" /></div></figure>
+        <div class="ch-copy reveal-up">
+          <p>Protocols for longevity, recovery and skin health, built around your history and your labs. A Mino MD physician decides whether a therapy is indicated, then stays with you as it progresses.</p>
+          <ul class="tags"><li>Longevity &amp; cellular health</li><li>Recovery &amp; healing</li><li>Skin &amp; aesthetics</li></ul>
+          <a href="mailto:hello@mino.inc?subject=Regenerative%20Health%20consultation" class="link-arrow">Start a consultation <svg width="16" height="16" viewBox="0 0 22 22" fill="none"><path d="M2 11h18M13 4l7 7-7 7" stroke="currentColor" stroke-width="1.6"/></svg></a>
+        </div>
+      </div>
+    </article>
+
+    <article class="chapter" id="metabolic" data-bg="#DFE3D6" data-fg="#1B1C1A">
+      <div class="ch-bignum">02</div>
+      <div class="ch-head"><span class="ch-num">02 / 05</span><span class="ch-kicker">Metabolic Weight Loss</span></div>
+      <h2 class="h-lg ch-title" data-split>Metabolism, managed <em>with medicine.</em></h2>
+      <div class="ch-grid">
+        <figure class="frame ch-wide reveal" data-cursor="view"><div class="inner"><img src="./assets/metabolic-1.jpg" alt="A woman laughing at a sunlit farmers market with a bag of fresh greens" /></div><figcaption>Metabolic &mdash; 02</figcaption></figure>
+        <figure class="frame ch-tall reveal" data-speed="-14" data-cursor="view"><div class="inner"><img src="./assets/metabolic-2.jpg" alt="A man slicing avocado in a stone kitchen" /></div></figure>
+        <div class="ch-copy reveal-up">
+          <p>Physician-directed weight management that starts with labs, not guesswork. Dosing is patient-specific and reviewed over time, with a structure that fits a real life.</p>
+          <ul class="tags"><li>Weight management</li><li>Baseline &amp; follow-up labs</li><li>Ongoing dose review</li></ul>
+          <a href="mailto:hello@mino.inc?subject=Metabolic%20consultation" class="link-arrow">Start a consultation <svg width="16" height="16" viewBox="0 0 22 22" fill="none"><path d="M2 11h18M13 4l7 7-7 7" stroke="currentColor" stroke-width="1.6"/></svg></a>
+        </div>
+      </div>
+    </article>
+
+    <article class="chapter" id="sexual" data-bg="#251F1C" data-fg="#F3EFE7">
+      <div class="ch-bignum">03</div>
+      <div class="ch-head"><span class="ch-num">03 / 05</span><span class="ch-kicker">Sexual Performance</span></div>
+      <h2 class="h-lg ch-title" data-split>Confidence is <em>clinical,</em> too.</h2>
+      <div class="ch-grid">
+        <figure class="frame ch-wide reveal" data-cursor="view"><div class="inner"><img src="./assets/sexual-1.jpg" alt="A couple sharing a quiet moment on a coastal balcony at dusk" /></div><figcaption>Performance &mdash; 03</figcaption></figure>
+        <figure class="frame ch-tall reveal" data-speed="-14" data-cursor="view"><div class="inner"><img src="./assets/sexual-2.jpg" alt="A man in a white shirt leaning in a doorway in warm evening light" /></div></figure>
+        <div class="ch-copy reveal-up">
+          <p>Private, physician-led care for sexual health and performance. Hormone replacement therapy is now available through Mino MD, with every protocol reviewed against your labs.</p>
+          <ul class="tags"><li>Sexual health</li><li>Hormone replacement therapy &mdash; new</li><li>Discreet US shipping</li></ul>
+          <a href="mailto:hello@mino.inc?subject=Sexual%20health%20consultation" class="link-arrow">Start a private consultation <svg width="16" height="16" viewBox="0 0 22 22" fill="none"><path d="M2 11h18M13 4l7 7-7 7" stroke="currentColor" stroke-width="1.6"/></svg></a>
+        </div>
+      </div>
+    </article>
+
+    <article class="chapter" id="fitness" data-bg="#D8DDD8" data-fg="#1B1C1A">
+      <div class="ch-bignum">04</div>
+      <div class="ch-head"><span class="ch-num">04 / 05</span><span class="ch-kicker">Fitness &amp; Recovery</span></div>
+      <h2 class="h-lg ch-title" data-split>Train hard. Recover <em>with intention.</em></h2>
+      <div class="ch-grid">
+        <figure class="frame ch-wide reveal" data-cursor="view"><div class="inner"><img src="./assets/fitness-1.jpg" alt="A woman running a coastal cliff trail at dawn" /></div><figcaption>Recovery &mdash; 04</figcaption></figure>
+        <figure class="frame ch-tall reveal" data-speed="-14" data-cursor="view"><div class="inner"><img src="./assets/fitness-2.jpg" alt="A man resting at the edge of a cold plunge" /></div></figure>
+        <div class="ch-copy reveal-up">
+          <p>For people who ask a lot of their bodies. Recovery-focused protocols, reviewed by a physician against your labs and your training, and adjusted as both evolve.</p>
+          <ul class="tags"><li>Recovery &amp; healing</li><li>Growth hormone support</li><li>Performance labs</li></ul>
+          <a href="mailto:hello@mino.inc?subject=Fitness%20and%20Recovery%20consultation" class="link-arrow">Start a consultation <svg width="16" height="16" viewBox="0 0 22 22" fill="none"><path d="M2 11h18M13 4l7 7-7 7" stroke="currentColor" stroke-width="1.6"/></svg></a>
+        </div>
+      </div>
+    </article>
+
+    <article class="chapter" id="cognitive" data-bg="#1D2420" data-fg="#F3EFE7">
+      <div class="ch-bignum">05</div>
+      <div class="ch-head"><span class="ch-num">05 / 05</span><span class="ch-kicker">Cognitive Function</span></div>
+      <h2 class="h-lg ch-title" data-split>Clarity, <em>carefully</em> considered.</h2>
+      <div class="ch-grid">
+        <figure class="frame ch-wide reveal" data-cursor="view"><div class="inner"><img src="./assets/cognitive-1.jpg" alt="A woman writing at an oak table in a sunlit studio" /></div><figcaption>Cognitive &mdash; 05</figcaption></figure>
+        <figure class="frame ch-tall reveal" data-speed="-14" data-cursor="view"><div class="inner"><img src="./assets/cognitive-2.jpg" alt="A man at a window overlooking a foggy city" /></div></figure>
+        <div class="ch-copy reveal-up">
+          <p>Cognitive and neurological protocols, prescribed only when a physician determines they are indicated, and supervised for as long as you use them.</p>
+          <ul class="tags"><li>Cognitive &amp; neurological</li><li>Physician supervision</li><li>Lab-guided protocols</li></ul>
+          <a href="mailto:hello@mino.inc?subject=Cognitive%20consultation" class="link-arrow">Start a consultation <svg width="16" height="16" viewBox="0 0 22 22" fill="none"><path d="M2 11h18M13 4l7 7-7 7" stroke="currentColor" stroke-width="1.6"/></svg></a>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- Approach (horizontal) -->
+  <section class="approach" id="approach">
+    <div class="approach-track" id="apTrack">
+      <div class="ap-intro">
+        <div>
+          <span class="eyebrow">How Mino MD works</span>
+          <h2 class="h-lg" data-split>A physician, <em>before</em> a prescription.</h2>
+          <p class="lede">Every patient starts with Mino MD, our physician-directed clinical practice. Nothing ships until a physician has reviewed your history and labs.</p>
+          <p class="ap-lead">Led by <strong>Dr. Brandon Howard, MD</strong>, Co-Founder &amp; CMO, board-certified in internal medicine. Clinical standards set by the Mino MD Physician Advisory Board.</p>
+        </div>
+        <figure class="frame reveal" data-cursor="view"><div class="inner"><img src="./assets/physician.jpg" alt="A physician reviewing lab results with a patient" /></div></figure>
+      </div>
+      <div class="step"><i class="bar"></i><div class="step-n">01</div><h3>Consult &amp; labs</h3><p>Share your history and goals with Mino MD, and complete your baseline labs.</p></div>
+      <div class="step"><i class="bar"></i><div class="step-n">02</div><h3>Physician review</h3><p>A Mino MD physician reviews everything and decides whether a therapy is indicated.</p></div>
+      <div class="step"><i class="bar"></i><div class="step-n">03</div><h3>Compounded for you</h3><p>Your patient-specific prescription is compounded in (mino)'s own US facility.</p></div>
+      <div class="step"><i class="bar"></i><div class="step-n">04</div><h3>Shipped to your door</h3><p>Delivered directly to you. Patient shipping is available to US addresses only.</p></div>
+      <div class="step"><i class="bar"></i><div class="step-n">05</div><h3>Ongoing supervision</h3><p>Your physician stays involved, reviewing progress and labs over time.</p></div>
+      <div class="ap-end"></div>
+    </div>
+    <div class="ap-progress"><i id="apBar"></i></div>
+  </section>
+
+  <!-- Quality -->
+  <section class="quality" id="quality">
+    <div class="q-top">
+      <div>
+        <span class="eyebrow">Quality</span>
+        <h2 class="h-lg" data-split>Verified, <em>lot by lot.</em></h2>
+      </div>
+      <p class="lede">Pharmaceutical-grade sourcing and end-to-end supply chain control. Every lot is tested by an independent laboratory and verified by HPLC and mass spectrometry before it ships.</p>
+    </div>
+    <figure class="frame q-media reveal" data-cursor="view"><div class="inner"><img src="./assets/lab.jpg" alt="Peptide vials on brushed steel in a compounding laboratory" /></div><figcaption>Compounded in the United States</figcaption></figure>
+    <div class="q-stats">
+      <div class="q-stat"><div class="big"><span class="count" data-to="99">0</span><sup>%+</sup></div><p>Verified purity on every lot before it ships.</p></div>
+      <div class="q-stat"><div class="big">HPLC</div><p>High-performance liquid chromatography.</p></div>
+      <div class="q-stat"><div class="big">+ MS</div><p>Mass spectrometry confirmation.</p></div>
+      <div class="q-stat"><div class="big">US</div><p>Made in the United States, in our own facility.</p></div>
+    </div>
+  </section>
+
+  <!-- Press -->
+  <section class="press" id="press">
+    <div class="press-head">
+      <div>
+        <span class="eyebrow">Recognized. Respected.</span>
+        <h2 class="h-lg" data-split>Making headlines. <em>Building trust.</em></h2>
+      </div>
+      <a href="https://mino.inc/press/" target="_blank" rel="noopener" class="link-arrow">Press room <svg width="16" height="16" viewBox="0 0 22 22" fill="none"><path d="M2 11h18M13 4l7 7-7 7" stroke="currentColor" stroke-width="1.6"/></svg></a>
+    </div>
+    <div class="marquee" aria-label="Featured in">
+      <div class="marquee-track">
+        <span>The Wall Street Journal</span><span>Business of Fashion</span><span>People en Espa&ntilde;ol</span><span>Los Angeles Magazine</span><span>NewBeauty</span><span>Daily Mail</span><span>SheKnows</span><span>The Purist</span><span>MedEsthetics</span><span>Beauty Independent</span><span>PIX11</span><span>WGN</span>
+      </div>
+      <div class="marquee-track" aria-hidden="true">
+        <span>The Wall Street Journal</span><span>Business of Fashion</span><span>People en Espa&ntilde;ol</span><span>Los Angeles Magazine</span><span>NewBeauty</span><span>Daily Mail</span><span>SheKnows</span><span>The Purist</span><span>MedEsthetics</span><span>Beauty Independent</span><span>PIX11</span><span>WGN</span>
+      </div>
+    </div>
+    <div class="press-grid">
+      <div class="p-stat reveal-up"><div class="big"><span class="count" data-to="60">0</span>+</div><p>Top-tier placements</p></div>
+      <div class="p-stat reveal-up"><div class="big"><span class="count" data-to="82">0</span>M+</div><p>Total reach</p></div>
+      <div class="p-stat reveal-up"><div class="big"><span class="count" data-to="15">0</span>+</div><p>Expert editorial interviews</p></div>
+      <div class="p-stat reveal-up"><div class="big"><span class="count" data-to="12">0</span></div><p>Broadcast segments</p></div>
+    </div>
+    <div class="awards">
+      <div class="award glow reveal-up">
+        <div class="meta"><span>Los Angeles Magazine</span><span>Sep 2026</span></div>
+        <div><svg class="laurel" viewBox="0 0 40 40" fill="none"><path d="M20 34c-6-2-11-8-11-16M20 34c6-2 11-8 11-16M12 12c-2 2-3 5-3 8m22-8c2 2 3 5 3 8M14 6c-1 2-1 4 0 6m12-6c1 2 1 4 0 6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+        <h4>Best of Beauty 2026: Best Peptide</h4><p class="src">(mino) NAD+</p></div>
+      </div>
+      <div class="award glow reveal-up">
+        <div class="meta"><span>People en Espa&ntilde;ol</span><span>Aug 2026</span></div>
+        <div><svg class="laurel" viewBox="0 0 40 40" fill="none"><path d="M20 34c-6-2-11-8-11-16M20 34c6-2 11-8 11-16M12 12c-2 2-3 5-3 8m22-8c2 2 3 5 3 8M14 6c-1 2-1 4 0 6m12-6c1 2 1 4 0 6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+        <h4>Hall de la Fama de los Productos Estrella 2026</h4><p class="src">(mino) NAD+ Peptide Complex</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Membership -->
+  <section class="membership" id="membership">
+    <div class="m-head">
+      <div>
+        <span class="eyebrow">Ways to begin</span>
+        <h2 class="h-lg" data-split>Care that fits <em>how you live.</em></h2>
+      </div>
+      <p class="lede">Join directly with a Passport membership, save on prescriptions with mino Rx, or enroll through your union, employer or health plan.</p>
+    </div>
+    <div class="m-cards">
+      <div class="m-card feature tilt reveal-up"><i class="shine"></i>
+        <span class="m-tag">Membership</span>
+        <h3>Passport</h3>
+        <p>Ongoing access to Mino MD physicians and supervised, patient-specific protocols. Three levels, billed monthly.</p>
+        <div class="tiers">
+          <div class="tier"><b>$299</b><small>per month</small></div>
+          <div class="tier"><b>$499</b><small>per month</small></div>
+          <div class="tier"><b>$699</b><small>per month</small></div>
+        </div>
+      </div>
+      <div class="m-card tilt reveal-up"><i class="shine"></i>
+        <span class="m-tag">Savings card</span>
+        <h3>mino Rx</h3>
+        <p>Savings on (mino) prescriptions, applied at checkout.</p>
+        <div class="m-big">15&ndash;50%<small>off (mino) prescriptions</small></div>
+        <div class="m-foot">mino Rx is a savings program. It is not insurance.</div>
+      </div>
+      <div class="m-card tilt reveal-up"><i class="shine"></i>
+        <span class="m-tag">Organizations</span>
+        <h3>Through your plan</h3>
+        <p>Private programs for unions, health plans, clubs and hotels. Members enroll through their organization.</p>
+        <div class="m-big">Enroll<small>through your union, employer or health plan</small></div>
+        <div class="m-foot"><a class="link-arrow" href="mailto:hello@mino.inc?subject=Organization%20program">Ask about a program <svg width="14" height="14" viewBox="0 0 22 22" fill="none"><path d="M2 11h18M13 4l7 7-7 7" stroke="currentColor" stroke-width="1.6"/></svg></a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Audiences -->
+  <section class="audiences" id="practices">
+    <span class="eyebrow">Building the peptide era</span>
+    <h2 class="h-lg" data-split>One standard. <em>Three audiences.</em></h2>
+    <div class="aud-grid">
+      <div class="aud reveal-up">
+        <span class="k">Patients</span>
+        <h3>Mino MD</h3>
+        <p>Physician evaluation, patient-specific prescriptions if indicated, and ongoing supervision.</p>
+        <ul><li>History &amp; lab review <span>Step one</span></li><li>Compounded in-house <span>US facility</span></li><li>Shipping <span>US only</span></li></ul>
+        <a href="mailto:hello@mino.inc?subject=Patient%20consultation" class="link-arrow">Begin as a patient <svg width="14" height="14" viewBox="0 0 22 22" fill="none"><path d="M2 11h18M13 4l7 7-7 7" stroke="currentColor" stroke-width="1.6"/></svg></a>
+      </div>
+      <div class="aud reveal-up">
+        <span class="k">Practices</span>
+        <h3>Wholesale</h3>
+        <p>Pens and vials across nine categories, for licensed practices only.</p>
+        <ul><li>Volume pricing <span>10 &middot; 25 &middot; 50 units</span></li><li>Categories <span>9</span></li><li>Agreement <span>Required</span></li></ul>
+        <a href="mailto:hello@mino.inc?subject=Wholesale%20catalogue" class="link-arrow">Request the catalogue <svg width="14" height="14" viewBox="0 0 22 22" fill="none"><path d="M2 11h18M13 4l7 7-7 7" stroke="currentColor" stroke-width="1.6"/></svg></a>
+      </div>
+      <div class="aud reveal-up">
+        <span class="k">Organizations</span>
+        <h3>Private programs</h3>
+        <p>Preferred provider to organizations including:</p>
+        <ul><li>PASBA <span>Port Authority SBA</span></li><li>DEA <span>Detectives' Endowment Assoc.</span></li><li>PAFSA &middot; FOPBC <span>Ridgewood PD</span></li></ul>
+        <a href="mailto:hello@mino.inc?subject=Organization%20program" class="link-arrow">Partner with (mino) <svg width="14" height="14" viewBox="0 0 22 22" fill="none"><path d="M2 11h18M13 4l7 7-7 7" stroke="currentColor" stroke-width="1.6"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Closing -->
+  <section class="closing" id="begin">
+    <div class="closing-pin">
+      <div class="closing-media" id="closingMedia"><img src="./assets/closing.jpg" alt="Three friends walking along a beach at golden hour" /></div>
+      <div class="closing-inner">
+        <span class="eyebrow">Science. Safety. Real results.</span>
+        <h2 class="h-xl" data-split>Begin with <em>a conversation.</em></h2>
+        <p>Tell us what you are looking for. A member of the Mino MD team will be in touch to arrange your consultation.</p>
+        <a href="mailto:hello@mino.inc?subject=Consultation" class="btn btn-light magnetic"><span class="dot"></span>hello@mino.inc</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="f-top">
+      <div>
+        <p class="f-lead">Peptide therapy for cellular renewal.</p>
+        <a class="f-mail" href="mailto:hello@mino.inc">hello@mino.inc</a>
+      </div>
+      <div><h5>Therapies</h5><ul>
+        <li><a href="#regenerative" data-scroll>Regenerative Health</a></li>
+        <li><a href="#metabolic" data-scroll>Metabolic Weight Loss</a></li>
+        <li><a href="#sexual" data-scroll>Sexual Performance</a></li>
+        <li><a href="#fitness" data-scroll>Fitness &amp; Recovery</a></li>
+        <li><a href="#cognitive" data-scroll>Cognitive Function</a></li></ul></div>
+      <div><h5>(mino)</h5><ul>
+        <li><a href="#approach" data-scroll>How it works</a></li>
+        <li><a href="#quality" data-scroll>Quality</a></li>
+        <li><a href="#membership" data-scroll>Passport</a></li>
+        <li><a href="#practices" data-scroll>For practices</a></li>
+        <li><a href="https://mino.inc/press/" target="_blank" rel="noopener">Press</a></li></ul></div>
+      <div><h5>Leadership</h5><ul>
+        <li>Elizabeth Straus <span style="opacity:.55">&mdash; CEO</span></li>
+        <li>Dr. Brandon Howard, MD <span style="opacity:.55">&mdash; CMO</span></li>
+        <li>Toya Casper <span style="opacity:.55">&mdash; President &amp; COO</span></li></ul></div>
+    </div>
+    <div class="wordmark" id="wordmark" aria-label="(mino)"><span class="p">(</span><span class="m">mino</span><span class="p">)</span></div>
+    <div class="f-bottom">
+      <p class="disclaimer">Compounded preparations are not FDA-approved. (mino) compounds under Section 503A for physician-directed, patient-specific prescriptions. Wholesale is available to licensed practices only. Patient shipping to US addresses only. mino Rx is not insurance.</p>
+      <p>&copy; 2026 (mino) &middot; New York Metropolitan Area</p>
+    </div>
+  </footer>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
